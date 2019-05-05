@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="420.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VentanaPrinicipalController">
+   <children>
+      <ListView fx:id="listaEncuestas" layoutX="129.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="btnElegirEncuesta" layoutX="129.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#elegirEncuesta" text="Aceptar" />
+      <Label layoutX="129.0" layoutY="40.0" prefHeight="29.0" prefWidth="138.0" text="Elija una encuesta" />
+      <Label fx:id="lblError" layoutX="23.0" layoutY="325.0" prefHeight="35.0" prefWidth="366.0" textFill="#f80000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
